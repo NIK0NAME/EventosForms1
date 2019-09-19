@@ -1,3 +1,4 @@
+*.jpg
 *.sln
 /.vs/
 /EventosI/bin/

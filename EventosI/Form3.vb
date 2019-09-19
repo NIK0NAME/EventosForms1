@@ -2,10 +2,13 @@
     Dim patada As Integer
     Dim puno As Integer
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        If patada > Then
-
+        If patada > puno Then
+            Resultado.Text = "Toma patada en la boca"
+        ElseIf puno > patada Then
+            Resultado.Text = "Toma puño en la boca"
+        Else
+            Resultado.Text = "Empate! Otra patadita?"
         End If
-
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click

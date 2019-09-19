@@ -27,6 +27,7 @@ Partial Class Form1
         Me.Formulari1ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Formulari2ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Formulari3ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ConversorDeTempertaturaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -41,7 +42,7 @@ Partial Class Form1
         '
         'OpcionesToolStripMenuItem
         '
-        Me.OpcionesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Formulari1ToolStripMenuItem, Me.Formulari2ToolStripMenuItem, Me.Formulari3ToolStripMenuItem})
+        Me.OpcionesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Formulari1ToolStripMenuItem, Me.Formulari2ToolStripMenuItem, Me.Formulari3ToolStripMenuItem, Me.ConversorDeTempertaturaToolStripMenuItem})
         Me.OpcionesToolStripMenuItem.Name = "OpcionesToolStripMenuItem"
         Me.OpcionesToolStripMenuItem.Size = New System.Drawing.Size(69, 20)
         Me.OpcionesToolStripMenuItem.Text = "Opciones"
@@ -49,20 +50,26 @@ Partial Class Form1
         'Formulari1ToolStripMenuItem
         '
         Me.Formulari1ToolStripMenuItem.Name = "Formulari1ToolStripMenuItem"
-        Me.Formulari1ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.Formulari1ToolStripMenuItem.Text = "Formulari 1"
+        Me.Formulari1ToolStripMenuItem.Size = New System.Drawing.Size(218, 22)
+        Me.Formulari1ToolStripMenuItem.Text = "Numeros en pantalla"
         '
         'Formulari2ToolStripMenuItem
         '
         Me.Formulari2ToolStripMenuItem.Name = "Formulari2ToolStripMenuItem"
-        Me.Formulari2ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.Formulari2ToolStripMenuItem.Text = "Formulari 2"
+        Me.Formulari2ToolStripMenuItem.Size = New System.Drawing.Size(218, 22)
+        Me.Formulari2ToolStripMenuItem.Text = "Puño pati"
         '
         'Formulari3ToolStripMenuItem
         '
         Me.Formulari3ToolStripMenuItem.Name = "Formulari3ToolStripMenuItem"
-        Me.Formulari3ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.Formulari3ToolStripMenuItem.Text = "Formulari 3"
+        Me.Formulari3ToolStripMenuItem.Size = New System.Drawing.Size(218, 22)
+        Me.Formulari3ToolStripMenuItem.Text = "Maximo y Minimos"
+        '
+        'ConversorDeTempertaturaToolStripMenuItem
+        '
+        Me.ConversorDeTempertaturaToolStripMenuItem.Name = "ConversorDeTempertaturaToolStripMenuItem"
+        Me.ConversorDeTempertaturaToolStripMenuItem.Size = New System.Drawing.Size(218, 22)
+        Me.ConversorDeTempertaturaToolStripMenuItem.Text = "Conversor de Tempertatura"
         '
         'Form1
         '
@@ -86,4 +93,5 @@ Partial Class Form1
     Friend WithEvents Formulari1ToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Formulari2ToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Formulari3ToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ConversorDeTempertaturaToolStripMenuItem As ToolStripMenuItem
 End Class
